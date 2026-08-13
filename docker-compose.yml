@@ -1,0 +1,20 @@
+version: "3.9"
+
+services:
+  backend:
+    build: ./backend
+    image: psicologanadiafadel-backend:latest
+    environment:
+      - NODE_ENV=production
+      - PORT=3000
+      - FRONTEND_URL=https://psicologanadiafadel.com.br
+    ports:
+      - "3000:3000"
+
+  web:
+    build: ./frontend
+    image: psicologanadiafadel-web:latest
+    ports:
+      - "80:80"
+    depends_on:
+      - backend
