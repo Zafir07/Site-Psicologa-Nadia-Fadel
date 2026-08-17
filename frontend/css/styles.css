@@ -277,12 +277,14 @@ footer ul a:hover{color:var(--dourado-soft);}
   .nav-links,.btn-small-nav{display:none;}
   .ham{display:flex;}
   .hero-grid{grid-template-columns:1fr;gap:40px;padding-top:20px;}
-  .hero-visual{display:none;}
+  .hero-visual{display:flex;justify-content:center;}
+  .hero-photo-frame{max-width:320px;}
   .hero-copy h1{font-size:34px;}
   .hero-copy p.lead{font-size:16px;}
   .hero-stats{gap:24px;}
   .about-grid{grid-template-columns:1fr;gap:40px;}
-  .about-photo{display:none;}
+  .about-photo{display:block;}
+  .about-photo img{height:420px;}
   .approach-grid{grid-template-columns:1fr;}
   .main-formation-grid{grid-template-columns:1fr;}
   .posgrad-grid{grid-template-columns:repeat(2,1fr);}
