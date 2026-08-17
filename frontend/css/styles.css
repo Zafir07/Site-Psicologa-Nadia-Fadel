@@ -277,8 +277,11 @@ footer ul a:hover{color:var(--dourado-soft);}
   .nav-links,.btn-small-nav{display:none;}
   .ham{display:flex;}
   .hero-grid{grid-template-columns:1fr;gap:40px;padding-top:20px;}
-  .hero-visual{display:flex;justify-content:center;}
-  .hero-photo-frame{max-width:320px;}
+  .hero-visual{display:flex;justify-content:center;flex-direction:column;align-items:center;}
+  .hero-photo-frame{max-width:320px;position:relative;}
+  .float-card{position:relative;left:auto;right:auto;top:auto;bottom:auto;transform:none;max-width:86%;margin:0 auto;}
+  .float-card.card-1{margin-bottom:14px;align-self:flex-start;}
+  .float-card.card-2{margin-top:14px;align-self:flex-end;}
   .hero-copy h1{font-size:34px;}
   .hero-copy p.lead{font-size:16px;}
   .hero-stats{gap:24px;}
