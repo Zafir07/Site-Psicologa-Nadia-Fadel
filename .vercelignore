@@ -1,0 +1,13 @@
+docker-compose.yml
+Dockerfile
+backend/Dockerfile
+frontend/Dockerfile
+frontend/nginx.conf
+.git
+.gitignore
+node_modules
+.env
+.env.local
+.env.*.local
+backend/tests
+*.md
